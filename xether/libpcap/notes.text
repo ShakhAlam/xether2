@@ -1,4 +1,0 @@
-./nametoaddr.c:334: conflicting types for `ether_hostton'
-/usr/include/net/if_ether.h:221: previous declaration of `ether_hostton'
-should be con char * instead of char * line 334 of nametoaddr.c
-change bpf_open() so it opens O_RDWR
