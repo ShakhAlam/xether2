@@ -1,0 +1,48 @@
+﻿Build started 2/22/2013 12:20:41 PM.
+     1>Project "C:\tmp\personal\xeth\xeth\xether.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching ".\Debug\xether.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /Gd /TC /analyze- /errorReport:prompt src\xtcp.c
+         xtcp.c
+     1>c:\tmp\personal\xeth\xeth\src\xtcp.c(172): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\tmp\personal\xeth\xeth\src\xtcp.c(175): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\tmp\personal\xeth\xeth\src\xtcp.c(177): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\tmp\personal\xeth\xeth\src\xtcp.c(179): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\tmp\personal\xeth\xeth\src\xtcp.c(181): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\tmp\personal\xeth\xeth\src\xtcp.c(183): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\tmp\personal\xeth\xeth\src\xtcp.c(185): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\tmp\personal\xeth\xeth\src\xtcp.c(186): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\tmp\personal\xeth\xeth\src\xtcp.c(197): warning C4244: 'function' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\tmp\personal\xeth\xeth\.\Debug\xether.lib) does not match the Library's OutputFile property value (C:\tmp\personal\xeth\xeth\lib\xether.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:".\lib\xether.lib" /NOLOGO .\Debug/datalink.obj
+         .\Debug/ipaddr.obj
+         .\Debug/macaddr.obj
+         ".\Debug/print-ascii.obj"
+         .\Debug/xapp.obj
+         .\Debug/xarp.obj
+         .\Debug/xdhcp.obj
+         .\Debug/xether.obj
+         .\Debug/xicmp.obj
+         .\Debug/xip.obj
+         .\Debug/xlayer.obj
+         .\Debug/xtcp.obj
+         .\Debug/xudp.obj
+         xether.vcxproj -> C:\tmp\personal\xeth\xeth\.\Debug\xether.lib
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\xether.unsuccessfulbuild".
+         Touching ".\Debug\xether.lastbuildstate".
+     1>Done Building Project "C:\tmp\personal\xeth\xeth\xether.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.02
