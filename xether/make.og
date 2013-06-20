@@ -1,0 +1,4 @@
+                if( ioctl(sockfd,SIOCGARP,&arprq) < 0 )
+                        continue;
+[ line 89 of 510 (17%), character 1942 of 9995 (19%) ]
+datalink.c
