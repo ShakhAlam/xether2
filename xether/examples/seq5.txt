@@ -1,0 +1,249 @@
+1: epic0
+2: lo0
+3: aue0
+Please choose interface (1-3):
+setting cport 1 with port 1225 seq 57432
+recv: SYN,ACK DPORT=1225 SEQ = 57432 DELTA=57432  GAMMA=57432
+sent: RST,ACK
+setting cport 2 with port 1226 seq 57437
+recv: SYN,ACK DPORT=1226 SEQ = 57437 DELTA=5  GAMMA=-57427
+sent: RST,ACK
+setting cport 3 with port 1227 seq 57443
+recv: SYN,ACK DPORT=1227 SEQ = 57443 DELTA=6  GAMMA=1
+sent: RST,ACK
+setting cport 4 with port 1228 seq 57445
+recv: SYN,ACK DPORT=1228 SEQ = 57445 DELTA=2  GAMMA=-4
+sent: RST,ACK
+setting cport 5 with port 1229 seq 57448
+recv: SYN,ACK DPORT=1229 SEQ = 57448 DELTA=3  GAMMA=1
+sent: RST,ACK
+setting cport 6 with port 1230 seq 57451
+recv: SYN,ACK DPORT=1230 SEQ = 57451 DELTA=3  GAMMA=0
+sent: RST,ACK
+setting cport 7 with port 1231 seq 57455
+recv: SYN,ACK DPORT=1231 SEQ = 57455 DELTA=4  GAMMA=1
+sent: RST,ACK
+setting cport 8 with port 1232 seq 57460
+recv: SYN,ACK DPORT=1232 SEQ = 57460 DELTA=5  GAMMA=1
+sent: RST,ACK
+setting cport 9 with port 1233 seq 57466
+recv: SYN,ACK DPORT=1233 SEQ = 57466 DELTA=6  GAMMA=1
+sent: RST,ACK
+setting cport 10 with port 1234 seq 57473
+recv: SYN,ACK DPORT=1234 SEQ = 57473 DELTA=7  GAMMA=1
+sent: RST,ACK
+setting cport 11 with port 1235 seq 57473
+recv: SYN,ACK DPORT=1235 SEQ = 57473 DELTA=0  GAMMA=-7
+sent: RST,ACK
+setting cport 12 with port 1236 seq 57474
+recv: SYN,ACK DPORT=1236 SEQ = 57474 DELTA=1  GAMMA=1
+sent: RST,ACK
+setting cport 13 with port 1237 seq 57476
+recv: SYN,ACK DPORT=1237 SEQ = 57476 DELTA=2  GAMMA=1
+sent: RST,ACK
+setting cport 14 with port 1238 seq 57484
+recv: SYN,ACK DPORT=1238 SEQ = 57484 DELTA=8  GAMMA=6
+sent: RST,ACK
+setting cport 15 with port 1239 seq 57493
+recv: SYN,ACK DPORT=1239 SEQ = 57493 DELTA=9  GAMMA=1
+sent: RST,ACK
+setting cport 16 with port 1240 seq 57503
+recv: SYN,ACK DPORT=1240 SEQ = 57503 DELTA=10  GAMMA=1
+sent: RST,ACK
+setting cport 17 with port 1241 seq 57514
+recv: SYN,ACK DPORT=1241 SEQ = 57514 DELTA=11  GAMMA=1
+sent: RST,ACK
+setting cport 18 with port 1242 seq 57526
+recv: SYN,ACK DPORT=1242 SEQ = 57526 DELTA=12  GAMMA=1
+sent: RST,ACK
+setting cport 19 with port 1243 seq 57539
+recv: SYN,ACK DPORT=1243 SEQ = 57539 DELTA=13  GAMMA=1
+sent: RST,ACK
+setting cport 20 with port 1244 seq 57553
+recv: SYN,ACK DPORT=1244 SEQ = 57553 DELTA=14  GAMMA=1
+sent: RST,ACK
+setting cport 21 with port 1245 seq 57568
+recv: SYN,ACK DPORT=1245 SEQ = 57568 DELTA=15  GAMMA=1
+sent: RST,ACK
+setting cport 22 with port 1246 seq 57576
+recv: SYN,ACK DPORT=1246 SEQ = 57576 DELTA=8  GAMMA=-7
+sent: RST,ACK
+setting cport 23 with port 1247 seq 57585
+recv: SYN,ACK DPORT=1247 SEQ = 57585 DELTA=9  GAMMA=1
+sent: RST,ACK
+setting cport 24 with port 1248 seq 57595
+recv: SYN,ACK DPORT=1248 SEQ = 57595 DELTA=10  GAMMA=1
+sent: RST,ACK
+setting cport 25 with port 1249 seq 57606
+recv: SYN,ACK DPORT=1249 SEQ = 57606 DELTA=11  GAMMA=1
+sent: RST,ACK
+setting cport 26 with port 1250 seq 57618
+recv: SYN,ACK DPORT=1250 SEQ = 57618 DELTA=12  GAMMA=1
+sent: RST,ACK
+setting cport 27 with port 1251 seq 57633
+recv: SYN,ACK DPORT=1251 SEQ = 57633 DELTA=15  GAMMA=3
+sent: RST,ACK
+setting cport 28 with port 1252 seq 57641
+recv: SYN,ACK DPORT=1252 SEQ = 57641 DELTA=8  GAMMA=-7
+sent: RST,ACK
+setting cport 29 with port 1253 seq 57650
+recv: SYN,ACK DPORT=1253 SEQ = 57650 DELTA=9  GAMMA=1
+sent: RST,ACK
+setting cport 30 with port 1254 seq 57660
+recv: SYN,ACK DPORT=1254 SEQ = 57660 DELTA=10  GAMMA=1
+sent: RST,ACK
+setting cport 31 with port 1255 seq 57671
+recv: SYN,ACK DPORT=1255 SEQ = 57671 DELTA=11  GAMMA=1
+sent: RST,ACK
+setting cport 32 with port 1256 seq 57683
+recv: SYN,ACK DPORT=1256 SEQ = 57683 DELTA=12  GAMMA=1
+sent: RST,ACK
+setting cport 33 with port 1257 seq 57696
+recv: SYN,ACK DPORT=1257 SEQ = 57696 DELTA=13  GAMMA=1
+sent: RST,ACK
+setting cport 34 with port 1258 seq 57710
+recv: SYN,ACK DPORT=1258 SEQ = 57710 DELTA=14  GAMMA=1
+sent: RST,ACK
+setting cport 35 with port 1259 seq 57725
+recv: SYN,ACK DPORT=1259 SEQ = 57725 DELTA=15  GAMMA=1
+sent: RST,ACK
+setting cport 36 with port 1260 seq 57733
+recv: SYN,ACK DPORT=1260 SEQ = 57733 DELTA=8  GAMMA=-7
+sent: RST,ACK
+setting cport 37 with port 1261 seq 57742
+recv: SYN,ACK DPORT=1261 SEQ = 57742 DELTA=9  GAMMA=1
+sent: RST,ACK
+setting cport 38 with port 1262 seq 57752
+recv: SYN,ACK DPORT=1262 SEQ = 57752 DELTA=10  GAMMA=1
+sent: RST,ACK
+setting cport 39 with port 1263 seq 57763
+recv: SYN,ACK DPORT=1263 SEQ = 57763 DELTA=11  GAMMA=1
+sent: RST,ACK
+setting cport 40 with port 1264 seq 57775
+recv: SYN,ACK DPORT=1264 SEQ = 57775 DELTA=12  GAMMA=1
+sent: RST,ACK
+setting cport 41 with port 1265 seq 57788
+recv: SYN,ACK DPORT=1265 SEQ = 57788 DELTA=13  GAMMA=1
+sent: RST,ACK
+setting cport 42 with port 1266 seq 57802
+recv: SYN,ACK DPORT=1266 SEQ = 57802 DELTA=14  GAMMA=1
+sent: RST,ACK
+setting cport 43 with port 1267 seq 57817
+recv: SYN,ACK DPORT=1267 SEQ = 57817 DELTA=15  GAMMA=1
+sent: RST,ACK
+setting cport 44 with port 1268 seq 57825
+recv: SYN,ACK DPORT=1268 SEQ = 57825 DELTA=8  GAMMA=-7
+sent: RST,ACK
+setting cport 45 with port 1269 seq 57834
+recv: SYN,ACK DPORT=1269 SEQ = 57834 DELTA=9  GAMMA=1
+sent: RST,ACK
+setting cport 46 with port 1270 seq 57844
+recv: SYN,ACK DPORT=1270 SEQ = 57844 DELTA=10  GAMMA=1
+sent: RST,ACK
+setting cport 47 with port 1271 seq 57855
+recv: SYN,ACK DPORT=1271 SEQ = 57855 DELTA=11  GAMMA=1
+sent: RST,ACK
+setting cport 48 with port 1272 seq 57867
+recv: SYN,ACK DPORT=1272 SEQ = 57867 DELTA=12  GAMMA=1
+sent: RST,ACK
+Sequence report
+PORT	SEQ	DELTA	GAMMA
+1225	57432	57432	57432
+1226	57437	5	-57427
+1227	57443	6	1
+1228	57445	2	-4
+1229	57448	3	1
+1230	57451	3	0
+1231	57455	4	1
+1232	57460	5	1
+1233	57466	6	1
+1234	57473	7	1
+1235	57473	0	-7
+1236	57474	1	1
+1237	57476	2	1
+1238	57484	8	6
+1239	57493	9	1
+1240	57503	10	1
+1241	57514	11	1
+1242	57526	12	1
+1243	57539	13	1
+1244	57553	14	1
+1245	57568	15	1
+1246	57576	8	-7
+1247	57585	9	1
+1248	57595	10	1
+1249	57606	11	1
+1250	57618	12	1
+1251	57633	15	3
+1252	57641	8	-7
+1253	57650	9	1
+1254	57660	10	1
+1255	57671	11	1
+1256	57683	12	1
+1257	57696	13	1
+1258	57710	14	1
+1259	57725	15	1
+1260	57733	8	-7
+1261	57742	9	1
+1262	57752	10	1
+1263	57763	11	1
+1264	57775	12	1
+1265	57788	13	1
+1266	57802	14	1
+1267	57817	15	1
+1268	57825	8	-7
+1269	57834	9	1
+1270	57844	10	1
+1271	57855	11	1
+1272	57867	12	1
+0	0	4294909429	-57879
+0	0	0	57867
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0
+0	0	0	0

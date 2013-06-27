@@ -1,0 +1,68 @@
+CC = cc 
+SRCDIR = ./src/
+LIBDIR = ./lib/
+INCL   = ./include/
+ODIR   = ./objects/
+
+CFLAGS = -c -O2 -I$(INCL) -o$@
+
+SRC = $(SRCDIR)datalink.c  $(SRCDIR)xlayer.c  $(SRCDIR)xether.c $(SRCDIR)xip.c  $(SRCDIR)xicmp.c  $(SRCDIR)xtcp.c  $(SRCDIR)xudp.c $(SRCDIR)xarp.c  $(SRCDIR)ipaddr.c  $(SRCDIR)macaddr.c  $(SRCDIR)xapp.c  $(SRCDIR)print-ascii.c $(SRCDIR)xdhcp.c
+
+OBJ = $(ODIR)datalink.o  $(ODIR)xlayer.o  $(ODIR)xether.o  $(ODIR)xip.o $(ODIR)xicmp.o  $(ODIR)xtcp.o $(ODIR)xudp.o $(ODIR)xarp.o  $(ODIR)ipaddr.o $(ODIR)macaddr.o  $(ODIR)xapp.o $(ODIR)print-ascii.o $(ODIR)xdhcp.o
+
+
+all: $(LIBDIR)libxlayer.a $(LIBDIR)libpcap.a
+
+$(LIBDIR)libpcap.a:
+	@echo Creating libpcap....
+	@chmod u+x ./libpcap/*
+	@cd ./libpcap && ./configure
+	@cd ./libpcap && make 
+	cp ./libpcap/libpcap.a ./lib
+$(LIBDIR)libxlayer.a: $(OBJ)
+	ar rc $@ $(OBJ)
+	@ranlib $@
+
+$(ODIR)datalink.o: $(SRCDIR)datalink.c $(INCL)datalink.h
+	
+	$(CC) $(CFLAGS) $(SRCDIR)datalink.c	
+
+$(ODIR)xlayer.o: $(SRCDIR)xlayer.c $(INCL)xlayer.h
+	$(CC) $(CFLAGS) $(SRCDIR)xlayer.c 
+
+$(ODIR)xether.o: $(SRCDIR)xether.c $(INCL)xether.h
+	$(CC) $(CFLAGS) $(SRCDIR)xether.c 	
+
+$(ODIR)xip.o: $(SRCDIR)xip.c $(INCL)xip.h
+	$(CC) $(CFLAGS) $(SRCDIR)xip.c	
+
+$(ODIR)xicmp.o: $(SRCDIR)xicmp.c $(INCL)xicmp.h
+	$(CC) $(CFLAGS) $(SRCDIR)xicmp.c	
+
+$(ODIR)xtcp.o: $(SRCDIR)xtcp.c $(INCL)xtcp.h
+	$(CC) $(CFLAGS) $(SRCDIR)xtcp.c	 
+
+$(ODIR)xudp.o: $(SRCDIR)xudp.c $(INCL)xudp.h
+	$(CC) $(CFLAGS) $(SRCDIR)xudp.c	 
+
+$(ODIR)xarp.o: $(SRCDIR)xarp.c $(INCL)xarp.h
+	$(CC) $(CFLAGS) $(SRCDIR)xarp.c	 
+
+$(ODIR)ipaddr.o: $(SRCDIR)ipaddr.c $(INCL)ipaddr.h  
+	$(CC) $(CFLAGS) $(SRCDIR)ipaddr.c  
+
+$(ODIR)macaddr.o: $(SRCDIR)macaddr.c $(INCL)macaddr.h 
+	$(CC) $(CFLAGS) $(SRCDIR)macaddr.c  
+
+$(ODIR)xapp.o: $(SRCDIR)xapp.c $(INCL)xapp.h 
+	$(CC) $(CFLAGS) $(SRCDIR)xapp.c	 
+
+$(ODIR)print-ascii.o: $(SRCDIR)print-ascii.c  
+	$(CC) $(CFLAGS) $(SRCDIR)print-ascii.c 	
+
+$(ODIR)xdhcp.o: $(SRCDIR)xdhcp.c $(INCL)xdhcp.h
+	$(CC) $(CFLAGS) $(SRCDIR)xdhcp.c 
+
+clean:
+	rm -f $(OBJ)
+
